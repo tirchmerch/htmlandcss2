@@ -1,0 +1,36 @@
+body {
+    color: crimson;
+    background-color: lightgray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table, tr, td, th {
+    border: 1px solid maroon;
+}
+
+#WPI {
+    text-align: center;
+}
+
+.squarebullets {
+    list-style-type: square;
+}
+
+nav {
+    text-align: center;
+    background-color: lightcoral;
+    font-family: Arial, sans-serif;
+}
+
+nav ul, nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: lightgray;
+    background-color: crimson;
+}
